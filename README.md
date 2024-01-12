@@ -28,8 +28,9 @@ class Members contains attributes of members object:
   2. Age
   3. Mobile_No
   4. BookCount
-    $ book1 and book2 objects of class Books have been initialized to null to keep track of books borrowed and returned by member at any instant.
-    $ fine_of_member_for_book1 and fine_of_member_for_book2 are initialized equal to 0 and keep track of fines for book1 and book2 and Totalfine is sum of fine of book1 and book2.
+
+$ book1 and book2 objects of class Books have been initialized to null to keep track of books borrowed and returned by member at any instant.
+$ fine_of_member_for_book1 and fine_of_member_for_book2 are initialized equal to 0 and keep track of fines for book1 and book2 and Totalfine is sum of fine of book1 and book2.
 
 class Books contains attributes of books object:
 
