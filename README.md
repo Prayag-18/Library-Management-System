@@ -20,24 +20,26 @@ Then, we take a inputs of Membername and Memberid(in my Mobile No of member is t
 If Member is registered, then we proceed by taking another input to choose which function for Member to be performed via switch. We are calling our Member functions in the Librarian class.
 
 
-# We have used Librarian class to perform functions for both the librarian and any Member because list of objects books and members have been defined in the Librarian class.
+We have used Librarian class to perform functions for both the librarian and any Member because list of objects books and members have been defined in the Librarian class.
 
-# class Members contains attributes of members object:
-1 Name
-2 Age
-3 Mobile_No
-4 BookCount
-  $ book1 and book2 objects of class Books have been initialized to null to keep track of books borrowed and returned by member at any instant.
-  $ fine_of_member_for_book1 and fine_of_member_for_book2 are initialized equal to 0 and keep track of fines for book1 and book2 and Totalfine is sum of fine of book1 and book2.
+class Members contains attributes of members object:
 
-# class Books contains attributes of books object:
-1 Title
-2 Author
-3 Totalcopies
-4 BookID
-5 availablecopies
-6 time1
-7 time2
+  1. Name
+  2. Age
+  3. Mobile_No
+  4. BookCount
+    $ book1 and book2 objects of class Books have been initialized to null to keep track of books borrowed and returned by member at any instant.
+    $ fine_of_member_for_book1 and fine_of_member_for_book2 are initialized equal to 0 and keep track of fines for book1 and book2 and Totalfine is sum of fine of book1 and book2.
+
+class Books contains attributes of books object:
+
+  1. Title
+  2. Author
+  3. Totalcopies
+  4. BookID
+  5. availablecopies
+  6. time1
+  7. time2
 
 If input is 3:
 We exit the Library.
